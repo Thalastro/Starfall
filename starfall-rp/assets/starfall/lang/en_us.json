@@ -1,7 +1,8 @@
 {
     "ui.starfall.title": "Starfall",
-    "ui.starfall.update": "Divine Intervention",
-    "ui.starfall.version": "v2.0",
+    "ui.starfall.update": "Revival",
+    "ui.starfall.version": "v1.0.0",
+    "ui.starfall.loaded": " loaded!",
     
     "item.starfall.star_fragment": "Star Fragment",
 

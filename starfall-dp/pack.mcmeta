@@ -1,8 +1,8 @@
 {
   "id": "starfall",
   "pack": {
-    "min_format": [107, 1],
-    "max_format": [107, 1],
+    "min_format": [121, 0],
+    "max_format": [121, 0],
     "description": [
       {
         "text": "☄ Starfall ☄",
@@ -12,7 +12,7 @@
         "text": "\n"
       },
       {
-        "text": "v2.0 - \"Divine Intervention\"",
+        "text": "v1.0.0 - \"Revival\"",
         "color": "#ff81db"
       }
     ]

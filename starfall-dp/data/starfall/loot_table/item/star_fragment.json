@@ -1,1 +1,49 @@
-{}
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "modifier": [
+        {
+          "type": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.starfall.star_fragment"
+            },
+            "minecraft:custom_data": {
+              "starfall": {
+                "id": "star_fragment"
+              }
+            },
+            "minecraft:item_model": "starfall:star_fragment",
+            "minecraft:tooltip_style": "starfall:main",
+            "!minecraft:food": {},
+            "minecraft:consumable": {
+                "has_consume_particles": true,
+                "sound": "block.amethyst_block.hit",
+                "consume_seconds": 2.4,
+                "on_consume_effects": [
+                    {
+                        "type": "minecraft:apply_effects",
+                        "effects": [
+                            {
+                                "id": "minecraft:glowing",
+                                "duration": 300
+                            }
+                        ]
+                    }
+                ]
+            }
+          }
+        },
+        "starfall:tooltip"
+      ]
+    }
+  ]
+}

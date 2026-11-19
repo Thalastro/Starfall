@@ -9,28 +9,14 @@
           "name": "minecraft:poisonous_potato"
         }
       ],
-      "functions": [
+      "modifier": [
         {
-          "function": "minecraft:set_components",
+          "type": "minecraft:set_components",
           "components": {
             "minecraft:item_name": {
               "translate": "item.starfall.tarot_card"
             },
             "minecraft:lore": [
-              [
-                {
-                  "text": "0 ",
-                  "color": "white",
-                  "font": "starfall:icon",
-                  "italic": false
-                },
-                {
-                  "translate": "ui.starfall.title",
-                  "color": "white",
-                  "font": "starfall:tooltip",
-                  "italic": false
-                }
-              ],
               [
                 {
                   "translate": "arcana.starfall.fool",
@@ -52,7 +38,7 @@
                   "translate": "arcana.starfall.fool.quote",
                   "color": "dark_gray",
                   "font": "minecraft:default",
-                  "italic": truew
+                  "italic": true
                 }
               ]
             ],
@@ -71,7 +57,8 @@
             "!minecraft:consumable": {},
             "!minecraft:food": {}
           }
-        }
+        },
+        "starfall:tooltip"
       ]
     }
   ]
