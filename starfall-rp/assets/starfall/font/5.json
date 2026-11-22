@@ -6,7 +6,7 @@
         },
         {
             "type": "bitmap",
-            "file": "starfall:gui/5.png",
+            "file": "starfall:font/5.png",
             "ascent": 8,
             "chars": [
                 "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",

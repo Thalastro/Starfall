@@ -13,6 +13,7 @@
             {
                 "translate": "ui.starfall.title",
                 "color": "white",
+                "shadow_color": [0.5,0.5,0.5,0.5],
                 "font": "starfall:tooltip",
                 "italic": false
             }
