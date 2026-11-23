@@ -4,9 +4,15 @@
     "ui.starfall.version": "v1.0.0",
     "ui.starfall.loaded": " loaded!",
     
+    "contributor.thalastro": "Thalastro",
+    "contributor.lead": "Lead_Is_Toxic",
+    
     "item.starfall.star_fragment": "Star Fragment",
+    
+    "item.starfall.somewhere_disc": "Music Disc",
 
-    "item.starfall.tarot_card": "Tarot Card",
+    "item.starfall.astral_codex": "Astral Codex",
+    "item.starfall.astral_codex.description": "Contains exclusive knowledge about life among the stars.",
 
     "arcana.starfall.fool": "The Fool",
     "arcana.starfall.fool.description": "Randomly teleport within 100m.",
@@ -75,10 +81,17 @@
     "arcana.starfall.world.description": "",
     "arcana.starfall.world.quote": "",
     
-    
     "entity.starfall.outlander": "Outlander",
     "entity.starfall.glimmer": "Glimmer",
     "entity.starfall.gloom": "Gloom",
     
-    "trim_material.starfall.star": "Star Material"
+    "subtitles.starfall.outlander.spawn": "Something appears...",
+    "subtitles.starfall.outlander.idle": "Outlander chirps",
+    "subtitles.starfall.outlander.hurt": "Outlander hurts",
+    "subtitles.starfall.outlander.warp": "Outlander warps",
+    "subtitles.starfall.outlandish_cat.warp": "Cat warps",
+    "subtitles.starfall.outlander.death": "Outlander dies",
+    
+    "trim_material.starfall.star": "Star Material",
+    "jukebox_song.starfall.somewhere": "Somewhere"
 }

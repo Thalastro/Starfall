@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "starfall:item/star_fragment",
+          "modifier": {
+            "type": "set_count",
+            "count": 8
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:diamond",
+          "modifier": {
+            "type": "set_count",
+            "count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "starfall:trade/outlander/common"
+}

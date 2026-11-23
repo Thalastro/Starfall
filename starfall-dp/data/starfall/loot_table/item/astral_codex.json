@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "modifier": [
+        {
+          "type": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.starfall.astral_codex"
+            },
+            "minecraft:custom_data": {
+              "starfall": {
+                "id": "astral_codex"
+              }
+            },
+            "minecraft:item_model": "starfall:astral_codex",
+            "minecraft:tooltip_style": "starfall:main",
+            "minecraft:max_stack_size": 1,
+            "minecraft:rarity": "uncommon",
+            "!minecraft:food": {},
+            "!minecraft:consumable": {}
+          }
+        },
+        "starfall:tooltip"
+      ]
+    }
+  ]
+}

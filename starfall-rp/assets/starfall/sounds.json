@@ -1,1 +1,54 @@
-{}
+{
+    "record.somewhere": {
+        "sounds": [
+            "starfall:record/somewhere"
+        ]
+    },
+    "entity.outlander.spawn": {
+        "sounds": [
+            "starfall:entity/outlander/spawn"
+        ],
+        "subtitle": "subtitles.starfall.outlander.spawn"
+    },
+    "entity.outlander.idle": {
+        "sounds": [
+            "starfall:entity/outlander/idle1",
+            "starfall:entity/outlander/idle2",
+            "starfall:entity/outlander/idle3"
+        ],
+        "subtitle": "subtitles.starfall.outlander.idle"
+    },
+    "entity.outlander.hurt": {
+        "sounds": [
+            "starfall:entity/outlander/hurt1",
+            "starfall:entity/outlander/hurt2"
+        ],
+        "subtitle": "subtitles.starfall.outlander.hurt"
+    },
+    "entity.outlander.death": {
+        "sounds": [
+            "starfall:entity/outlander/death"
+        ],
+        "subtitle": "subtitles.starfall.outlander.death"
+    },
+    "entity.outlander.warp": {
+        "sounds": [
+            {
+                "name": "block/trial_spawner/ominous_activate",
+                "pitch": 0.5,
+                "volume": 2
+            }
+        ],
+        "subtitle": "subtitles.starfall.outlander.warp"
+    },
+    "entity.outlandish_cat.warp": {
+        "sounds": [
+            {
+                "name": "block/trial_spawner/ominous_activate",
+                "pitch": 0.75,
+                "volume": 1.5
+            }
+        ],
+        "subtitle": "subtitles.starfall.outlandish_cat.warp"
+    }
+}

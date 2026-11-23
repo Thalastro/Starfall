@@ -1,0 +1,7 @@
+{
+	"parent": "starfall:entity/outlander/stationary",
+	"textures": {
+		"0": "starfall:entity/outlander/moving",
+		"particle": "starfall:entity/outlander/moving"
+	}
+}

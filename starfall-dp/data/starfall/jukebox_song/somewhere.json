@@ -1,0 +1,20 @@
+{
+    "sound_event": {
+      "sound_id": "starfall:record.somewhere"
+    },
+    "description": [
+      {
+        "translate": "contributor.lead",
+        "font": "minecraft:default",
+        "color": "gray"
+      },
+      {
+        "text": " - "
+      },
+      {
+      "translate": "jukebox_song.starfall.somewhere"
+      }
+  ],
+    "length_in_seconds": 96,
+    "comparator_output": 7
+  }

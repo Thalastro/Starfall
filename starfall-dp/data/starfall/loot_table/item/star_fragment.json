@@ -23,6 +23,7 @@
             },
             "minecraft:item_model": "starfall:star_fragment",
             "minecraft:tooltip_style": "starfall:main",
+            "minecraft:provides_trim_material": "starfall:star",
             "!minecraft:food": {},
             "minecraft:consumable": {
                 "has_consume_particles": true,

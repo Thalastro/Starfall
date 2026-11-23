@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "on_false": {
+        "type": "minecraft:model",
+        "model": "starfall:entity/outlander/stationary",
+        "transformation": {
+            "scale": [2,2,2],
+            "translation": [-0.5,-2.25,-0.5],
+            "left_rotation": [0,0,0,1],
+            "right_rotation": [0,0,0,1]
+        }
+    },
+    "on_true": {
+      "type": "minecraft:model",
+        "model": "starfall:entity/outlander/moving",
+        "transformation": {
+            "scale": [2,2,2],
+            "translation": [-0.5,-2.25,-0.5],
+            "left_rotation": [0,0,0,1],
+            "right_rotation": [0,0,0,1]
+        }
+    }
+  }
+}
