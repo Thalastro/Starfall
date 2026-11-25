@@ -1,0 +1,6 @@
+{
+    "parent": "item/goat_horn",
+    "textures": {
+        "layer0": "starfall:item/crystal_horn"
+    }
+}

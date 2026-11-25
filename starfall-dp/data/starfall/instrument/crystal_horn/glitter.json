@@ -1,0 +1,11 @@
+{
+  "description": {
+    "translate": "instrument.starfall.crystal_horn.glitter"
+  },
+  "range": 256.0,
+  "sound_event": {
+    "sound_id": "starfall:instrument.crystal_horn.glitter",
+    "range": 256
+  },
+  "use_duration": 5
+}

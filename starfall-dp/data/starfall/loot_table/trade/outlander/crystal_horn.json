@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "starfall:item/star_fragment",
+          "modifier": {
+            "type": "set_count",
+            "count": 8
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "starfall:item/crystal_horn/allure"
+        },
+        {
+          "type": "loot_table",
+          "value": "starfall:item/crystal_horn/glitter"
+        },
+        {
+          "type": "loot_table",
+          "value": "starfall:item/crystal_horn/nebula"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "starfall:trade/outlander/crystal_horn"
+}

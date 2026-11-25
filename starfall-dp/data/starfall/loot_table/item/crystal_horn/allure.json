@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_horn"
+        }
+      ],
+      "modifier": [
+        {
+          "type": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.starfall.crystal_horn"
+            },
+            "minecraft:custom_data": {
+              "starfall": {
+                "id": "crystal_horn"
+              }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "instrument.starfall.crystal_horn.allure",
+                "color": "gray",
+                "italic": false
+              }
+            ],
+            "minecraft:item_model": "starfall:crystal_horn",
+            "minecraft:tooltip_style": "starfall:main",
+            "minecraft:rarity": "uncommon",
+            "minecraft:instrument": "starfall:crystal_horn/allure",
+            "minecraft:tooltip_display": {
+              "hidden_components": [
+                "minecraft:instrument"
+              ]
+            }
+          }
+        },
+        "starfall:tooltip"
+      ]
+    }
+  ]
+}

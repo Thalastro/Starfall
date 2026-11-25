@@ -1,0 +1,10 @@
+{
+  "description": {
+    "translate": "instrument.starfall.crystal_horn.allure"
+  },
+  "range": 256.0,
+  "sound_event": {
+    "sound_id": "starfall:instrument.crystal_horn.allure"
+  },
+  "use_duration": 7.0
+}

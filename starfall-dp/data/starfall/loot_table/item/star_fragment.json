@@ -27,7 +27,9 @@
             "!minecraft:food": {},
             "minecraft:consumable": {
                 "has_consume_particles": true,
-                "sound": "block.amethyst_block.hit",
+                "sound": {
+                    "sound_id": "starfall:item.star_fragment.eat"
+                },
                 "consume_seconds": 2.4,
                 "on_consume_effects": [
                     {

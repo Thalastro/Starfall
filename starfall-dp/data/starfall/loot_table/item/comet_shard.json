@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "modifier": [
+        {
+          "type": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.starfall.comet_shard"
+            },
+            "minecraft:custom_data": {
+              "starfall": {
+                "id": "comet_shard"
+              }
+            },
+            "minecraft:item_model": "starfall:comet_shard",
+            "minecraft:tooltip_style": "starfall:main",
+            "minecraft:rarity": "uncommon",
+            "minecraft:provides_trim_material": "starfall:comet",
+            "!minecraft:food": {},
+            "minecraft:consumable": {
+                "has_consume_particles": true,
+                "sound": {
+                    "sound_id": "starfall:item.comet_shard.eat"
+                },
+                "consume_seconds": 2.4,
+                "on_consume_effects": [
+                    {
+                        "type": "minecraft:apply_effects",
+                        "effects": [
+                            {
+                                "id": "minecraft:night_vision",
+                                "duration": 500
+                            }
+                        ]
+                    }
+                ]
+            }
+          }
+        },
+        "starfall:tooltip"
+      ]
+    }
+  ]
+}

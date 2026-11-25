@@ -4,6 +4,37 @@
             "starfall:record/somewhere"
         ]
     },
+    "item.star_fragment.eat": {
+        "sounds": [
+            {
+                "name": "block/amethyst/break1"
+            }
+        ],
+        "subtitle": "subtitles.starfall.star_fragment.eat"
+    },
+    "item.comet_shard.eat": {
+        "sounds": [
+            {
+                "name": "block/amethyst/break2"
+            }
+        ],
+        "subtitle": "subtitles.starfall.comet_shard.eat"
+    },
+    "instrument.crystal_horn.allure": {
+        "sounds": [
+            "mob/goat/scream1"
+        ]
+    },
+    "instrument.crystal_horn.glitter": {
+        "sounds": [
+            "mob/goat/scream2"
+        ]
+    },
+    "instrument.crystal_horn.nebula": {
+        "sounds": [
+            "mob/goat/scream3"
+        ]
+    },
     "entity.outlander.spawn": {
         "sounds": [
             "starfall:entity/outlander/spawn"

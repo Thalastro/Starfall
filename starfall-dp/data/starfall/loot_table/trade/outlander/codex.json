@@ -5,10 +5,10 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "starfall:item/star_fragment",
+          "value": "starfall:item/comet_shard",
           "modifier": {
             "type": "set_count",
-            "count": 32
+            "count": 8
           }
         }
       ]

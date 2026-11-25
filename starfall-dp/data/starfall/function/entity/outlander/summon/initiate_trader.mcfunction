@@ -18,9 +18,17 @@ loot replace entity @s weapon.mainhand 2 loot starfall:trade/outlander/uncommon
 function starfall:entity/outlander/summon/add_trade
 data modify entity @s Offers.Recipes[-1].maxUses set value 4
 
+loot replace entity @s weapon.mainhand 2 loot starfall:trade/outlander/crystal_horn
+function starfall:entity/outlander/summon/add_trade
+data modify entity @s Offers.Recipes[-1].maxUses set value 1
+
 loot replace entity @s weapon.mainhand 2 loot starfall:trade/outlander/rare
 function starfall:entity/outlander/summon/add_trade
 data modify entity @s Offers.Recipes[-1].maxUses set value 2
+
+loot replace entity @s weapon.mainhand 2 loot starfall:trade/outlander/special
+function starfall:entity/outlander/summon/add_trade
+data modify entity @s Offers.Recipes[-1].maxUses set value 1
 
 loot replace entity @s weapon.mainhand 2 loot starfall:trade/outlander/codex
 function starfall:entity/outlander/summon/add_trade

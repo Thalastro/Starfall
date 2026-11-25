@@ -8,14 +8,25 @@
     "contributor.lead": "Lead_Is_Toxic",
     
     "item.starfall.star_fragment": "Star Fragment",
+    "item.starfall.comet_shard": "Comet Shard",
+    "subtitles.starfall.star_fragment.eat": "Star eaten",
+    "subtitles.starfall.comet_shard.eat": "Comet eaten",
+    
+    "item.starfall.crystal_horn": "Crystal Horn",
+    "instrument.starfall.crystal_horn.allure": "Allure",
+    "instrument.starfall.crystal_horn.glitter": "Glitter",
+    "instrument.starfall.crystal_horn.nebula": "Nebula",
     
     "item.starfall.somewhere_disc": "Music Disc",
 
     "item.starfall.astral_codex": "Astral Codex",
     "item.starfall.astral_codex.description": "Contains exclusive knowledge about life among the stars.",
 
+    "block.starfall.tarot_table": "Tarot Table",
+    "block.starfall.tarot_table.description": "Prestidigitate your future.",
+    
     "arcana.starfall.fool": "The Fool",
-    "arcana.starfall.fool.description": "Randomly teleport within 100m.",
+    "arcana.starfall.fool.description": "Reduces fall damage.",
     "arcana.starfall.fool.quote": "\"Trust in the unknown.\"",
     "arcana.starfall.magician": "The Magician",
     "arcana.starfall.magician.description": "Gain homing arrows for 30 minutes.",
@@ -30,7 +41,7 @@
     "arcana.starfall.emperor.description": "",
     "arcana.starfall.emperor.quote": "",
     "arcana.starfall.hierophant": "The Hierophant",
-    "arcana.starfall.hierophant.description": "Applies regeneration for the day.",
+    "arcana.starfall.hierophant.description": "Regenerates health.",
     "arcana.starfall.hierophant.quote": "",
     "arcana.starfall.lovers": "The Lovers",
     "arcana.starfall.lovers.description": "Increases max health for the day.",
@@ -60,13 +71,13 @@
     "arcana.starfall.temperance.description": "Increases defense for the day.",
     "arcana.starfall.temperance.quote": "",
     "arcana.starfall.devil": "The Devil",
-    "arcana.starfall.devil.description": "Damages and slows nearby mobs.",
+    "arcana.starfall.devil.description": "Steals health from enemies.",
     "arcana.starfall.devil.quote": "",
     "arcana.starfall.tower": "The Tower",
     "arcana.starfall.tower.description": "Lightning will strike three nearby mobs at random.",
     "arcana.starfall.tower.quote": "",
     "arcana.starfall.star": "The Stars",
-    "arcana.starfall.star.description": "Summons three falling stars.",
+    "arcana.starfall.star.description": "Falling Star related.",
     "arcana.starfall.star.quote": "",
     "arcana.starfall.moon": "The Moon",
     "arcana.starfall.moon.description": "Summons a wisp that leads to a nearby structure.",
@@ -80,6 +91,9 @@
     "arcana.starfall.world": "The World",
     "arcana.starfall.world.description": "",
     "arcana.starfall.world.quote": "",
+    
+    "minor_arcana.starfall.swords.pawn": "Pawn of Swords",
+    "minor_arcana.starfall.swords.pawn.description": "Upon killing a hostile mob.",
     
     "entity.starfall.outlander": "Outlander",
     "entity.starfall.glimmer": "Glimmer",
